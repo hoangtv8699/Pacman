@@ -48,4 +48,5 @@ public class PacmanMove : MonoBehaviour
         GetComponent<Animator>().SetFloat("DirX", dir.x);
         GetComponent<Animator>().SetFloat("DirY", dir.y);
     }
+
 }
